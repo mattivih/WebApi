@@ -1,0 +1,10 @@
+/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/bin/Debug/netcoreapp2.0/WebApiAllAssignments.deps.json
+/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/bin/Debug/netcoreapp2.0/WebApiAllAssignments.runtimeconfig.json
+/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/bin/Debug/netcoreapp2.0/WebApiAllAssignments.runtimeconfig.dev.json
+/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/bin/Debug/netcoreapp2.0/WebApiAllAssignments.dll
+/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/bin/Debug/netcoreapp2.0/WebApiAllAssignments.pdb
+/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/obj/Debug/netcoreapp2.0/WebApiAllAssignments.csproj.CoreCompileInputs.cache
+/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/obj/Debug/netcoreapp2.0/WebApiAllAssignments.AssemblyInfoInputs.cache
+/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/obj/Debug/netcoreapp2.0/WebApiAllAssignments.AssemblyInfo.cs
+/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/obj/Debug/netcoreapp2.0/WebApiAllAssignments.dll
+/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/obj/Debug/netcoreapp2.0/WebApiAllAssignments.pdb

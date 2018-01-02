@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1dccdeb5-ac62-46aa-9116-c1e8790db06f" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Processors/ItemProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Middlewares/ErrorHandlingMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Mongodb/MongoDbClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Exceptions/LevelTooLowException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/MongoDbRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Controllers/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Exceptions/NotFoundException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/ModifiedItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Controllers/ItemController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/NewPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/ModifiedPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/NewItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Validation/ValidateModelAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/IPlayerRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Exceptions/ItemNotFoundException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/PlayerInMemoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApiAllAssignments/Processors/PlayerProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Exceptions/LevelTooLowException.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Exceptions/ItemNotFoundException.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Exceptions/NotFoundException.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Middlewares/ErrorHandlingMiddleware.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/MongoDB/MongoDBClient.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Repositories/MongoDBRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Mongodb/MongoDbClient.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Repositories/IPlayerRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Processors/PlayerProcessor.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Repositories/MongoDbRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Repositories/PlayerInMemoryRepository.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Controllers/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Controllers/ItemController.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Models/Item.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Processors/ItemProcessor.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Models/Player.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Program.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Models/NewPlayer.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Models/ModifiedPlayer.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Models/ModifiedItem.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Models/NewItem.cs" />
+        <option value="$PROJECT_DIR$/WebApiAllAssignments/Validation/ValidateModelAttribute.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="714" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApiAllAssignments (1 project)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebApiAllAssignments" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/WebApiAllAssignments/WebApiAllAssignments.csproj" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/WebApiAllAssignments/bin/Debug/netcoreapp2.0/WebApiAllAssignments.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Production" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dccdeb5-ac62-46aa-9116-c1e8790db06f" name="Default" comment="" />
+      <created>1507194345863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507194345863</updated>
+      <workItem from="1507194347305" duration="9671000" />
+      <workItem from="1507403077353" duration="7818000" />
+      <workItem from="1507661198085" duration="3917000" />
+      <workItem from="1507707306076" duration="10413000" />
+      <workItem from="1507723403021" duration="346000" />
+      <workItem from="1507723783697" duration="30002000" />
+      <workItem from="1507825595566" duration="3326000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65493000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="714" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3318649" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24474959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30948678" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Controllers/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/MongoDbRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <marker date="1507810832000" expanded="false" signature="6:292" ph="..." />
+            <marker date="1507810832000" expanded="true" signature="337:4522" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="394:4520" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="510:768" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="846:942" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="1002:1327" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="1380:1611" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="1697:2159" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="1939:2008" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="2222:2417" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="2487:2862" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="2931:3398" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3079:3249" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3134:3235" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3289:3355" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3489:3983" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3628:3926" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3683:3885" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="4055:4514" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="4165:4457" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="4220:4443" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/IPlayerRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <marker date="1507800482000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1507800482000" expanded="true" signature="123:747" ph="{...}" />
+            <marker date="1507800482000" expanded="true" signature="164:745" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/PlayerInMemoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="9" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="105" selection-end-column="9" />
+          <folding>
+            <marker date="1507810843000" expanded="false" signature="6:255" ph="..." />
+            <marker date="1507810843000" expanded="true" signature="300:3193" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="364:3191" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="520:621" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="689:748" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="809:875" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="961:1065" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1136:1270" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1340:1765" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1473:1551" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1568:1730" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1842:2309" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1990:2160" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2045:2146" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2200:2266" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2400:2798" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2532:2655" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2870:3185" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2972:3150" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Processors/ItemProcessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <marker date="1507805220000" expanded="true" signature="6:119" ph="..." />
+            <marker date="1507805220000" expanded="true" signature="162:1643" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="195:1641" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="325:383" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="459:893" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="964:1042" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="1141:1488" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="1554:1635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Exceptions/ItemNotFoundException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Exceptions/NotFoundException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="70" lean-forward="false" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+          <folding>
+            <marker date="1507815695000" expanded="false" signature="6:277" ph="..." />
+            <marker date="1507815695000" expanded="true" signature="309:1350" ph="{...}" />
+            <marker date="1507815695000" expanded="true" signature="336:1348" ph="{...}" />
+            <marker date="1507815695000" expanded="true" signature="395:458" ph="{...}" />
+            <marker date="1507815695000" expanded="true" signature="681:1049" ph="{...}" />
+            <marker date="1507815695000" expanded="true" signature="1237:1342" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Processors/PlayerProcessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <marker date="1507803356000" expanded="true" signature="6:153" ph="..." />
+            <marker date="1507803356000" expanded="true" signature="196:1622" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="231:1620" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="363:421" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="484:847" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="915:993" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="1048:1116" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="1213:1465" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="1530:1605" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/PlayerInMemoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <marker date="1507810843000" expanded="false" signature="6:255" ph="..." />
+            <marker date="1507810843000" expanded="true" signature="300:3193" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="364:3191" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="520:621" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="689:748" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="809:875" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="961:1065" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1136:1270" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1340:1765" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1473:1551" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1568:1730" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1842:2309" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1990:2160" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2045:2146" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2200:2266" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2400:2798" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2532:2655" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2870:3185" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2972:3150" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/NewItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Controllers/ItemController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="9" lean-forward="false" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Exceptions/LevelTooLowException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Processors/ItemProcessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <marker date="1507805220000" expanded="true" signature="6:119" ph="..." />
+            <marker date="1507805220000" expanded="true" signature="162:1643" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="195:1641" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="325:383" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="459:893" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="964:1042" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="1141:1488" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="1554:1635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Exceptions/NotFoundException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Middlewares/ErrorHandlingMiddleware.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Exceptions/ItemNotFoundException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Controllers/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="65" lean-forward="false" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Processors/PlayerProcessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <marker date="1507803356000" expanded="true" signature="6:153" ph="..." />
+            <marker date="1507803356000" expanded="true" signature="196:1622" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="231:1620" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="363:421" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="484:847" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="915:993" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="1048:1116" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="1213:1465" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="1530:1605" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/PlayerInMemoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+          <folding>
+            <marker date="1507810843000" expanded="false" signature="6:255" ph="..." />
+            <marker date="1507810843000" expanded="true" signature="300:3193" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="364:3191" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="520:621" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="689:748" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="809:875" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="961:1065" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1136:1270" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1340:1765" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1473:1551" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1568:1730" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1842:2309" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1990:2160" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2045:2146" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2200:2266" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2400:2798" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2532:2655" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2870:3185" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2972:3150" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/IPlayerRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <marker date="1507800482000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1507800482000" expanded="true" signature="123:747" ph="{...}" />
+            <marker date="1507800482000" expanded="true" signature="164:745" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Processors/ItemProcessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="72" lean-forward="true" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+          <folding>
+            <marker date="1507805220000" expanded="true" signature="6:119" ph="..." />
+            <marker date="1507805220000" expanded="true" signature="162:1643" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="195:1641" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="325:383" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="459:893" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="964:1042" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="1141:1488" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="1554:1635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/ModifiedPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/ModifiedItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Controllers/ItemController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Controllers/ValuesController.cs" />
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Exceptions/ItemNotFoundException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Exceptions/NotFoundException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Exceptions/LevelTooLowException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Controllers/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Controllers/ItemController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="34" column="84" lean-forward="false" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Mongodb/MongoDbClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <marker date="1507748002000" expanded="true" signature="61:475" ph="{...}" />
+            <marker date="1507748002000" expanded="true" signature="94:473" ph="{...}" />
+            <marker date="1507748002000" expanded="true" signature="183:340" ph="{...}" />
+            <marker date="1507748002000" expanded="true" signature="396:467" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Processors/ItemProcessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding>
+            <marker date="1507805220000" expanded="true" signature="6:119" ph="..." />
+            <marker date="1507805220000" expanded="true" signature="162:1643" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="195:1641" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="325:383" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="459:893" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="964:1042" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="1141:1488" ph="{...}" />
+            <marker date="1507805220000" expanded="true" signature="1554:1635" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507815646000" expanded="true" signature="6:63" ph="..." />
+            <marker date="1507815646000" expanded="true" signature="122:414" ph="{...}" />
+            <marker date="1507815646000" expanded="true" signature="175:233" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <marker date="1507815695000" expanded="false" signature="6:277" ph="..." />
+            <marker date="1507815695000" expanded="true" signature="309:1350" ph="{...}" />
+            <marker date="1507815695000" expanded="true" signature="336:1348" ph="{...}" />
+            <marker date="1507815695000" expanded="true" signature="395:458" ph="{...}" />
+            <marker date="1507815695000" expanded="true" signature="681:1049" ph="{...}" />
+            <marker date="1507815695000" expanded="true" signature="1237:1342" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <marker date="1507815473000" expanded="true" signature="6:47" ph="..." />
+            <marker date="1507815473000" expanded="true" signature="86:289" ph="{...}" />
+            <marker date="1507815473000" expanded="true" signature="112:287" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/NewPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <marker date="1507826173000" expanded="true" signature="83:249" ph="{...}" />
+            <marker date="1507826173000" expanded="true" signature="112:247" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/ModifiedPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1507826314000" expanded="true" signature="6:58" ph="..." />
+            <marker date="1507826314000" expanded="true" signature="97:443" ph="{...}" />
+            <marker date="1507826314000" expanded="true" signature="131:441" ph="{...}" />
+            <marker date="1507826314000" expanded="true" signature="369:435" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/NewItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <marker date="1507826727000" expanded="true" signature="6:58" ph="..." />
+            <marker date="1507826727000" expanded="true" signature="97:410" ph="{...}" />
+            <marker date="1507826727000" expanded="true" signature="124:408" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/ModifiedItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <marker date="1507826348000" expanded="true" signature="83:270" ph="{...}" />
+            <marker date="1507826348000" expanded="true" signature="115:268" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Middlewares/ErrorHandlingMiddleware.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1507745976000" expanded="false" signature="6:101" ph="..." />
+            <marker date="1507745976000" expanded="true" signature="145:1115" ph="{...}" />
+            <marker date="1507745976000" expanded="true" signature="188:1113" ph="{...}" />
+            <marker date="1507745976000" expanded="true" signature="295:341" ph="{...}" />
+            <marker date="1507745976000" expanded="true" signature="396:1107" ph="{...}" />
+            <marker date="1507745976000" expanded="true" signature="422:488" ph="{...}" />
+            <marker date="1507745976000" expanded="true" signature="525:689" ph="{...}" />
+            <marker date="1507745976000" expanded="true" signature="729:887" ph="{...}" />
+            <marker date="1507745976000" expanded="true" signature="928:1097" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Validation/ValidateModelAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <marker date="1507883951000" expanded="true" signature="6:107" ph="..." />
+            <marker date="1507883951000" expanded="true" signature="150:761" ph="{...}" />
+            <marker date="1507883951000" expanded="true" signature="216:759" ph="{...}" />
+            <marker date="1507883951000" expanded="true" signature="231:417" ph="/* private ILogger&lt;ValidateModelAttribute&gt; _logger; ... */" />
+            <marker date="1507883951000" expanded="true" signature="497:753" ph="{...}" />
+            <marker date="1507883951000" expanded="true" signature="559:742" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Models/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <marker date="1507815013000" expanded="true" signature="52:347" ph="{...}" />
+            <marker date="1507815013000" expanded="true" signature="76:345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Processors/PlayerProcessor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding>
+            <marker date="1507803356000" expanded="true" signature="6:153" ph="..." />
+            <marker date="1507803356000" expanded="true" signature="196:1622" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="231:1620" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="363:421" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="484:847" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="915:993" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="1048:1116" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="1213:1465" ph="{...}" />
+            <marker date="1507803356000" expanded="true" signature="1530:1605" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/PlayerInMemoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="79" column="69" lean-forward="false" selection-start-line="79" selection-start-column="69" selection-end-line="79" selection-end-column="69" />
+          <folding>
+            <marker date="1507810843000" expanded="false" signature="6:255" ph="..." />
+            <marker date="1507810843000" expanded="true" signature="300:3193" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="364:3191" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="520:621" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="689:748" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="809:875" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="961:1065" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1136:1270" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1340:1765" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1473:1551" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1568:1730" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1842:2309" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="1990:2160" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2045:2146" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2200:2266" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2400:2798" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2532:2655" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2870:3185" ph="{...}" />
+            <marker date="1507810843000" expanded="true" signature="2972:3150" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/MongoDbRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="102" column="75" lean-forward="false" selection-start-line="102" selection-start-column="63" selection-end-line="102" selection-end-column="75" />
+          <folding>
+            <marker date="1507810832000" expanded="false" signature="6:292" ph="..." />
+            <marker date="1507810832000" expanded="true" signature="337:4522" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="394:4520" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="510:768" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="846:942" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="1002:1327" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="1380:1611" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="1697:2159" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="1939:2008" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="2222:2417" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="2487:2862" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="2931:3398" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3079:3249" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3134:3235" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3289:3355" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3489:3983" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3628:3926" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="3683:3885" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="4055:4514" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="4165:4457" ph="{...}" />
+            <marker date="1507810832000" expanded="true" signature="4220:4443" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApiAllAssignments/Repositories/IPlayerRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding>
+            <marker date="1507800482000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1507800482000" expanded="true" signature="123:747" ph="{...}" />
+            <marker date="1507800482000" expanded="true" signature="164:745" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

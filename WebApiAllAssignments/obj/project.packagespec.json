@@ -1,0 +1,36 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/WebApiAllAssignments.csproj",
+    "projectName": "WebApiAllAssignments",
+    "projectPath": "/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/WebApiAllAssignments.csproj",
+    "outputPath": "/Users/Matti/Desktop/Sith Empire/PELISOVELLUKSET/Serverit/WebApiAllAssignments/WebApiAllAssignments/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "2.0.0"
+        },
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "2.0.0"
+        },
+        "MongoDB.Driver": {
+          "target": "Package",
+          "version": "2.4.4"
+        }
+      }
+    }
+  }
+}
